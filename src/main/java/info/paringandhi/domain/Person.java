@@ -44,6 +44,12 @@ public class Person {
 		this.lastName = lastName;
 	}
 
+	public Person(String firstName, String lastName) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
 	public Person(Long id, String firstName, String lastName) {
 		super();
 		this.id = id;
